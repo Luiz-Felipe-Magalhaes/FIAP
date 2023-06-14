@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7EEA459-FEB4-FDDA-A54F-B83FC19B5941" name="T_SIP_EMAIL">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 19:32:15 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_email" id="70711369-6128-5AC3-C718-A44C60F6EF77">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 19:32:21 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_contato" id="AEDDDF1D-4DC7-268E-A132-DC214B1F02CA">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 20:01:07 UTC</createdTime>
+<generatorID>2FF1CF10-DA99-40FA-B2AA-D387F2E282D4</generatorID>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<referedAttribute>7F05B66B-9B45-B1CA-1E52-F8B497782362</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_email" id="ECF76019-E67E-5D74-132F-C74EEEA63C56">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 19:32:28 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9EF8402C-5936-99EF-B599-D11052C3A1FB" name="T_SIP_EMAIL PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 19:32:35 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>70711369-6128-5AC3-C718-A44C60F6EF77</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

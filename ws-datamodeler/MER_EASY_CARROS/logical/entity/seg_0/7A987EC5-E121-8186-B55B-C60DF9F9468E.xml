@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A987EC5-E121-8186-B55B-C60DF9F9468E" name="T_PAGAMENTO">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 15:23:22 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_pagamento" id="EA61DFD8-A450-B50E-1407-0CD25A087AFA">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 15:23:31 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_locacao" id="18463815-DECF-B770-E1ED-FBA77C2F1CB8">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 22:29:00 UTC</createdTime>
+<generatorID>DDC06DE3-FE34-799D-6849-B5A5C469D06C</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<referedAttribute>28C0890C-D4CF-4A0D-0CF7-9CE24788C0DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_pagamento" id="D47DC30E-B518-22B0-A010-E9D9EF541B6A">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 15:23:39 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlr_pagamento" id="34509AB1-0B44-21AC-F387-E2C32482B739">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 15:23:55 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_pagamento" id="87C0B1BC-FFA2-FF4A-1C1E-40236F19A4B7">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 15:23:46 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1EA312D7-9C5F-6CFD-79B0-7F856AC2DAD7" name="T_PAGAMENTO PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 15:23:38 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EA61DFD8-A450-B50E-1407-0CD25A087AFA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

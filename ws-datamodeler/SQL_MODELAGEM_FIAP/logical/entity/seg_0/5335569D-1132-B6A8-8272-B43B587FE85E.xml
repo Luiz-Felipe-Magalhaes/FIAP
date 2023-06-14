@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5335569D-1132-B6A8-8272-B43B587FE85E" name="T_PRESCRICAO">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-19 00:06:04 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_consulta" id="7D11A916-E158-1B8F-C339-80ADC7D52603">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-19 00:09:52 UTC</createdTime>
+<generatorID>97254162-44ED-A32F-97C5-5CDB599D638E</generatorID>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<referedAttribute>1048097D-25EB-9972-8A65-215237EE733D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_medicamento" id="9C6A9A48-D068-AE5C-145E-13F0806E22F0">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-19 00:13:43 UTC</createdTime>
+<generatorID>90092247-E04D-DBF8-ADC0-B1EBA9D7ED5D</generatorID>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<referedAttribute>61D0E446-8D07-7C45-0674-429554423E12</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_posologia" id="20140649-30E2-F953-F6DD-F890E07AEA00">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-19 00:09:09 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_via" id="5E8112B4-0CBB-5591-800C-2EF918C676DE">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-19 00:09:20 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_uso" id="AEB0CE05-3CBB-C13A-B63F-F061E62A7BCE">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-19 00:09:25 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6CFC7A36-554B-DCB7-0DD0-F26DB8862B23" name="T_RECEITA PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-19 00:06:30 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7D11A916-E158-1B8F-C339-80ADC7D52603</attributeRef>
+<attributeRef>9C6A9A48-D068-AE5C-145E-13F0806E22F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

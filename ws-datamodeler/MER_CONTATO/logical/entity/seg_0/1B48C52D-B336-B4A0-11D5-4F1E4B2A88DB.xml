@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B48C52D-B336-B4A0-11D5-4F1E4B2A88DB" name="T_SIP_CONTATO">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 19:19:39 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_contato" id="7F05B66B-9B45-B1CA-1E52-F8B497782362">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 19:30:50 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_contato" id="4C9F04FA-34A6-FAA0-E806-D6DF0CCDF93D">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 19:21:10 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_apelido" id="CF6309D0-7AAD-F547-CD22-D6F3F3855078">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 19:34:03 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_empresa" id="51514C61-7AB5-8EFF-0E32-BBB4ED565AB4">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 19:33:43 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_aniversario" id="38496838-24B9-9973-2F61-CA08D2C95E31">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 19:22:33 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sta_bloqueado" id="251E3C0B-8E98-A572-1325-01E41AA8AF1B">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 20:04:33 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C635F22B-2205-B248-CDC9-2FA09381FFF9" name="T_SIP_CONTATO PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 19:31:25 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7F05B66B-9B45-B1CA-1E52-F8B497782362</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

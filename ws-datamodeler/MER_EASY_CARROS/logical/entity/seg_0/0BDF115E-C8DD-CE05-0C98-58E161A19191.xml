@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0BDF115E-C8DD-CE05-0C98-58E161A19191" name="T_SEGURO">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 22:02:04 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="num_apolice" id="C640A34A-7611-D1C8-BA3E-31C1F8321DB8">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 22:02:08 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_veiculo" id="2CEED804-C591-41FA-0BEB-A278DF2A420B">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 22:19:05 UTC</createdTime>
+<generatorID>B2D65A4D-0FB3-E326-9D2A-15FC90900C01</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<referedAttribute>513BCB19-AAD8-64DB-A60D-58CF2D45A6AD</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj_seguradora" id="ABFAD1CA-0862-C748-1D88-834FEE776E20">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:03:43 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_seguradora" id="E27464A9-20F2-3B1A-7BDF-EDFE07E257A2">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 22:02:53 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_inicio" id="4DBB3D24-0501-147C-8BD5-D82F81B9445E">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 22:02:17 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_validade" id="1CA4E785-0C1E-6B92-87BB-B9CFAC3E3892">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 22:02:31 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A0D4F59-A03E-4B31-7BDE-D10238E10835" name="T_SEGURO PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 22:02:19 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C640A34A-7611-D1C8-BA3E-31C1F8321DB8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

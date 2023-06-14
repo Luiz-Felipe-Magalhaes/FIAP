@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A00F1BA7-35FF-BC15-FB01-5FE2961CB5B5" name="T_DISCIPLINA">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-19 00:38:04 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_disciplina" id="6BB9653F-3491-BC20-AA1D-DA797BE990C4">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-19 00:38:17 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_disciplina" id="681A6A05-436B-BEDE-DED9-29A5FE9AD99C">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-19 00:38:25 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9F4FB6F7-817E-BF40-CD05-195B93A55E39" name="T_DISCIPLICA PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-19 00:38:24 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6BB9653F-3491-BC20-AA1D-DA797BE990C4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

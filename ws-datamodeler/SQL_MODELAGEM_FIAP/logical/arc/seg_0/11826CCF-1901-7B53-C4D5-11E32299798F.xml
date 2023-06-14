@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="11826CCF-1901-7B53-C4D5-11E32299798F" name="Arc_1">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 17:02:09 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<entity>FA64B922-BA19-C001-10A9-29F9C9228CE7</entity>
+<relations>
+<relationID>411B2AE4-7E30-B8B6-68AA-4211C859D99B</relationID>
+<relationID>5B338EAC-DC50-D65C-25DF-1B95399FAA9A</relationID>
+</relations>
+</Arc>

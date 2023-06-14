@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="alocar" directorySegmentName="seg_0" id="8BEC7378-3F09-718C-12D5-957169230AB0">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 22:23:24 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<sourcePk>D2C7BAE8-A79B-14A6-3745-C44B9CEC4B80</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9FFDA4B0-5646-CCA6-9F86-5353AAA7D363</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>23FED42F-ADEA-034B-42EF-F14ED6B0DB80</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

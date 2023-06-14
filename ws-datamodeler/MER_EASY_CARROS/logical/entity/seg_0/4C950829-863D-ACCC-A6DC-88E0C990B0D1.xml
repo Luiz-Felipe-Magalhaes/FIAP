@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C950829-863D-ACCC-A6DC-88E0C990B0D1" name="T_USUARIO_HABILITADO">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 15:13:04 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="num_documento" id="8962F9AD-E422-F337-9290-85588D675F14">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 15:13:35 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_cpf" id="A4799BE9-0FA4-5516-8275-9B9A23D0C7DE">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 22:09:26 UTC</createdTime>
+<generatorID>35A6FD62-F40D-07DA-60BD-D7DB073CA3C6</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<referedAttribute>0789FDDE-8034-9FF3-405C-6FC0CCFA6963</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_categoria" id="F652B8F9-44E2-579E-3AB6-87539E8F6D1F">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 15:13:46 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_emissao" id="E48718A4-D4BB-24A8-F194-5E06F73D6BBA">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 15:13:57 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_validade" id="826A9364-27B1-51BF-DCCF-2F1B1B3B5245">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 15:14:04 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A18A60E-F523-47E4-B128-BB0C75E295FA" name="T_CARTEIRA_NACIONAL_HABILITACAO PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 15:13:45 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8962F9AD-E422-F337-9290-85588D675F14</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="95FBA507-D148-3BFC-DE22-4916FB83B0C9" name="T_PROFESSOR_DISCIPLINA">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-19 00:38:52 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="num_matricula" id="2E062F99-5F44-810C-9FAB-1D1A72A7C3A0">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-19 00:41:31 UTC</createdTime>
+<generatorID>89C15959-B880-3B0A-F5E0-52508CA9B889</generatorID>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<referedAttribute>8217A58E-346C-21DA-0022-3E13A96ACA7D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_disciplina" id="A54C0D34-2E1E-6C83-9537-688C49F549C1">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-19 00:42:13 UTC</createdTime>
+<generatorID>E8260A07-F019-612F-D114-929322629C8A</generatorID>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<referedAttribute>6BB9653F-3491-BC20-AA1D-DA797BE990C4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0860387F-76A6-86AF-0679-5B10DF869096" name="PROFESSOR_DISCIPLINA PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-19 01:42:03 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A54C0D34-2E1E-6C83-9537-688C49F549C1</attributeRef>
+<attributeRef>2E062F99-5F44-810C-9FAB-1D1A72A7C3A0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

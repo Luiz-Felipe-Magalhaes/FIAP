@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fazer" directorySegmentName="seg_0" id="4E248719-AADC-4F33-B2FE-36E9ABA29FAF">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 22:34:51 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<sourcePk>8A18A60E-F523-47E4-B128-BB0C75E295FA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4C950829-863D-ACCC-A6DC-88E0C990B0D1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2AE9128B-497E-AD6C-0765-DC2F986C0723</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

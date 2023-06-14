@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4C1228A-530E-6AF1-06FB-61DD9577ACBF" name="T_ENDERECO_USUARIO">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>2006F615-5DB1-F755-668C-C0DA6E3FCC5C</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_endereco" id="ACE3FB7C-FDAA-B2D2-DB3D-FCA5FC3DE520">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>E17BE9A4-0CF5-34EE-3832-3AFBC9C3507A</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="des_logradouro" id="46A61332-1AD1-4955-E5FB-C4A3D4554DA9">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>0ABB614F-CB6A-54F4-8C24-51D86B94B88B</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_rua" id="A848376D-03EB-D962-F619-385947696A56">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>F5F8CADE-124E-A8AD-9E58-233DA8F0C822</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_endereco" id="A1ABD8F6-CC1B-FE00-B0F1-BD3FCAB54AB4">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>BE4E278E-A0A1-3E31-F6EB-290F4F4A930E</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_bairro" id="1636BE94-4FF1-7E9E-398A-0DEEDD8BA727">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>F6401E7C-8202-36E6-3A09-0F13D8579D94</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_cidade" id="E203DF7C-120A-3CC0-8E2A-1B05B384B094">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>06149365-3AB6-BCB2-AF66-7D98D5A07F7B</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_estado" id="42695143-D412-67E9-DFD8-824D036DEA43">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>98D659FB-A839-D247-AC61-448BA0A00879</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vlr_cep" id="32150783-018E-7642-3A0F-9787C118FD5D">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>358B591B-6C70-842B-750B-440556F2F7BF</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0E7B76A-F335-D72F-264C-769F94FE49E2" name="T_ENDERECO_USUARIO_PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>2E169000-2031-4A6A-7465-04ECB0A17711</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACE3FB7C-FDAA-B2D2-DB3D-FCA5FC3DE520"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

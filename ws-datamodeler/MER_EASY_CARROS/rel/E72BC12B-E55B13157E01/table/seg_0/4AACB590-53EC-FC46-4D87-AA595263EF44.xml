@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4AACB590-53EC-FC46-4D87-AA595263EF44" name="T_LOCACAO">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>2AE9128B-497E-AD6C-0765-DC2F986C0723</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_locacao" id="CC5AEE0D-F2B6-EC5C-27A6-244BE5A0B704">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>28C0890C-D4CF-4A0D-0CF7-9CE24788C0DD</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_HABILITADO_num_documento" id="A0E4CDF2-EFFA-9CE7-F946-5CE5BC5D19BB">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>5C023F45-F282-BC40-E1BA-34D0ECAF5511</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95BD65B4-2494-B718-49A6-80C16DB7C9A4" referredColumn="5A503E1E-BE05-B772-8D9A-50FFE4858EC3"/>
+</associations>
+</Column>
+<Column name="T_VEICULO_cod_veiculo" id="5FEBBF8D-AB98-14E5-2690-191BDA89F6A1">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>47EF236C-6D3D-7C37-1FC5-AB4C439B4F60</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B20CD035-7ADD-172C-D61F-5250766C4B34" referredColumn="E8D7AF49-B5A0-263D-5678-841791F9ADAC"/>
+</associations>
+</Column>
+<Column name="T_PAGAMENTO_cod_pagamento" id="A27AE61E-123B-738B-FACE-613F922A65C9">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>D8F09D50-D688-7404-197A-D3298761C2C8</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38575FEC-39FB-E790-DA40-079680602827" referredColumn="0360DD87-CCE7-FBB5-2D2C-EC89675368A9"/>
+</associations>
+</Column>
+<Column name="des_tipo_locacao" id="881BC4CF-E9E6-6B5A-CE54-47C9BD0D04B0">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>0B57A7CD-CB4A-54D3-87C4-3D5D56A50B2E</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_inicio" id="4E19F1E0-D989-CBA5-D4A7-2F373EEC3AD5">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>910065F7-4358-543F-138F-E5846E215F1A</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_termino" id="B8D97CC0-3058-A0DE-8A17-F23558E927C0">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>98644C24-D8F3-1C04-2C21-E5A81C28CC71</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F176D7BC-B7C9-546B-466C-67B63541EB35" name="T_LOCACAO_PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>CCA49D6E-B81B-63F4-5D75-A3239493DF53</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC5AEE0D-F2B6-EC5C-27A6-244BE5A0B704"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B589A68C-2ABE-A38F-0D97-2026AD13605C" name="T_LOCACAO__IDX">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B804758C-6DC5-D5BB-E94A-2415705CCE04</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5FEBBF8D-AB98-14E5-2690-191BDA89F6A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="270092B2-2242-5B81-7647-F2964DA32F6B" name="T_LOCACAO__IDXv1">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DDC06DE3-FE34-799D-6849-B5A5C469D06C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A27AE61E-123B-738B-FACE-613F922A65C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C37869B-A52E-FC44-F5D8-55E298E9E92A" name="T_LOCACAO_T_USUARIO_HABILITADO_FK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>4E248719-AADC-4F33-B2FE-36E9ABA29FAF</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0E4CDF2-EFFA-9CE7-F946-5CE5BC5D19BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83EE65FF-F091-ADC4-BCE5-034568DDA35A" name="T_LOCACAO_T_VEICULO_FK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>B804758C-6DC5-D5BB-E94A-2415705CCE04</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FEBBF8D-AB98-14E5-2690-191BDA89F6A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBC16A86-E9A6-B849-A5F2-64C36B2DF0F9" name="T_LOCACAO_T_PAGAMENTO_FK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:35:52 UTC</createdTime>
+<generatorID>DDC06DE3-FE34-799D-6849-B5A5C469D06C</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A27AE61E-123B-738B-FACE-613F922A65C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

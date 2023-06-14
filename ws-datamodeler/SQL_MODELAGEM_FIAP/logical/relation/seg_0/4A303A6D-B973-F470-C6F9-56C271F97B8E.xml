@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="submeter" directorySegmentName="seg_0" id="4A303A6D-B973-F470-C6F9-56C271F97B8E">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-13 20:37:14 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<sourcePk>426A0CE5-AB68-236B-36E1-5A2D9820246F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>68E16E7F-F267-4D7F-4289-3B73FB572BF7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C8E968D1-77D0-4EB7-A288-D4FEF1A0B95D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

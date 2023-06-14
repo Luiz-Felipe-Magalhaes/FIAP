@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6CA0FD7-FC0F-B88D-16F7-85D0DF178961" name="T_USUARIO_HABILITADO">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>4C950829-863D-ACCC-A6DC-88E0C990B0D1</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_documento" id="5A503E1E-BE05-B772-8D9A-50FFE4858EC3">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>8962F9AD-E422-F337-9290-85588D675F14</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_num_cpf" id="3AABF893-AD09-B454-332F-A8F185FE0D3A">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>A4799BE9-0FA4-5516-8275-9B9A23D0C7DE</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26880071-3F4C-32C7-9D2B-E622E07607ED" referredColumn="03618819-6A0D-028C-2913-5AE16105D4AA"/>
+</associations>
+</Column>
+<Column name="des_categoria" id="347B9E27-0866-C512-0CED-A1E262B36DB4">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>F652B8F9-44E2-579E-3AB6-87539E8F6D1F</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_emissao" id="F596E421-DB69-3A74-F861-AE187C0FD321">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>E48718A4-D4BB-24A8-F194-5E06F73D6BBA</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_validade" id="7D7A0BF8-4055-BD6D-88EA-218F1CB2555F">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>826A9364-27B1-51BF-DCCF-2F1B1B3B5245</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6ADF9A5-7128-3A50-B090-F408C4136136" name="T_USUARIO_HABILITADO_PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>8A18A60E-F523-47E4-B128-BB0C75E295FA</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A503E1E-BE05-B772-8D9A-50FFE4858EC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97CEB297-4E10-1755-9D46-65D5F0774474" name="T_USUARIO_HABILITADO__IDX">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>35A6FD62-F40D-07DA-60BD-D7DB073CA3C6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3AABF893-AD09-B454-332F-A8F185FE0D3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E3EB70E-835D-EE5F-AF99-628F79C2AA01" name="T_USUARIO_HABILITADO_T_USUARIO_FK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>35A6FD62-F40D-07DA-60BD-D7DB073CA3C6</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AABF893-AD09-B454-332F-A8F185FE0D3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

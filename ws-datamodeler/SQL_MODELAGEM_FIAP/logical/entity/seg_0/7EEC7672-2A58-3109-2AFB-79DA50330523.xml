@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7EEC7672-2A58-3109-2AFB-79DA50330523" name="T_PESSOA_JURIDICA">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 16:55:45 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_pessoa" id="62793925-3EEF-BFF8-315D-44122633F5B3">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 16:57:12 UTC</createdTime>
+<generatorID>5B338EAC-DC50-D65C-25DF-1B95399FAA9A</generatorID>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<referedAttribute>00E8C159-39C1-1136-98D0-4C194F4C930C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_cnpj" id="3F41D6E3-D712-A766-EDC5-C366FDCF288E">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 16:55:58 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_inscricao_estadual" id="6AC749EE-748A-4710-C2C4-26193C563813">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 16:56:07 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_ramo_atividade" id="7564E529-A60D-C458-6D61-B3C9DB0577A8">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 16:56:19 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05F6820F-A6A3-0122-9586-94547CF79148" name="T_PESSOA_JURIDICA PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 16:57:18 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>62793925-3EEF-BFF8-315D-44122633F5B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

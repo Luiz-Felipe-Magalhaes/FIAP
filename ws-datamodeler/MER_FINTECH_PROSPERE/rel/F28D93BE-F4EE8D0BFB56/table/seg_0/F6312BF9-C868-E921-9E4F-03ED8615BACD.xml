@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6312BF9-C868-E921-9E4F-03ED8615BACD" name="T_CATEGORIA">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-27 22:19:39 UTC</createdTime>
+<generatorID>9699EABB-455A-0313-5F0C-5CEC3DF02544</generatorID>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_categoria" id="CB77C96C-9F23-9C48-A4EB-B308343B387B">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-27 22:19:39 UTC</createdTime>
+<generatorID>2CB6AB0E-D5FE-72C6-DF89-00BB010284DF</generatorID>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_categoria" id="621E3040-7FAE-AE9A-1B1A-6A49E7E48D62">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-27 22:19:39 UTC</createdTime>
+<generatorID>4FD7DCD3-3266-F7DB-EB9A-1D53FE0C2BCF</generatorID>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="des_cor" id="11560EC8-7077-AAFA-A797-75E11A8E859F">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-27 22:19:39 UTC</createdTime>
+<generatorID>D71C42AB-09D2-6FBF-5014-F21686CE3431</generatorID>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92CFC7FD-5F8C-42C3-C645-71222A2C1589" name="T_CATEGORIA_PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-27 22:19:39 UTC</createdTime>
+<generatorID>FDDA0796-229A-15C6-F26E-357E4CC66871</generatorID>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB77C96C-9F23-9C48-A4EB-B308343B387B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

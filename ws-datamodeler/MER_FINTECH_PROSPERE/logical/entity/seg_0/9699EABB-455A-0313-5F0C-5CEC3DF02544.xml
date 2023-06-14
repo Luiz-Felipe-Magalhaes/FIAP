@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9699EABB-455A-0313-5F0C-5CEC3DF02544" name="T_CATEGORIA">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-23 21:28:57 UTC</createdTime>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<engineerTo>
+<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_categoria" id="2CB6AB0E-D5FE-72C6-DF89-00BB010284DF">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-23 21:29:06 UTC</createdTime>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<engineerTo>
+<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_usuario" id="7DE911F3-1DA7-6669-BFB3-A20F2A736B55">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-29 16:22:15 UTC</createdTime>
+<generatorID>3C1FC448-1E6B-5CBD-B4C6-9B4C8D896E1C</generatorID>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<engineerTo>
+<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
+</engineerTo>
+<referedAttribute>98B92F33-E05B-8EAA-2BB6-400AF431EE0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_categoria" id="4FD7DCD3-3266-F7DB-EB9A-1D53FE0C2BCF">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-23 21:29:21 UTC</createdTime>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<engineerTo>
+<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_cor" id="D71C42AB-09D2-6FBF-5014-F21686CE3431">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-23 21:51:34 UTC</createdTime>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<engineerTo>
+<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FDDA0796-229A-15C6-F26E-357E4CC66871" name="T_FTC_CATEGORIA PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-23 21:29:11 UTC</createdTime>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<engineerTo>
+<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2CB6AB0E-D5FE-72C6-DF89-00BB010284DF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

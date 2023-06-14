@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61895064-1BF4-993E-6740-7A65880A482B" name="T_MULHER">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-13 15:50:20 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_mulher" id="D3947841-7379-967D-3BB1-4C1850E29FC3">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-13 15:50:26 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_homem" id="53DD07D3-67E2-7CCF-7F30-C624C36FA9E8">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-13 15:51:35 UTC</createdTime>
+<generatorID>B4BD5AD8-9945-2A4C-FCAF-38EBB9E998CF</generatorID>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>42245BE7-C223-4758-BBAE-5ED182E1FF5E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_mulher" id="23D9ADC7-B282-1EDD-FE1C-E91948718542">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-13 15:50:37 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B974F2E-A51E-16BD-94D0-34D8C29C9D5B" name="T_MULHER PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-13 15:50:36 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3947841-7379-967D-3BB1-4C1850E29FC3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

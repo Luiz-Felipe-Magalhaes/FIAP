@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C8E968D1-77D0-4EB7-A288-D4FEF1A0B95D" name="T_CONSULTA">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-13 20:35:08 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_consulta" id="1048097D-25EB-9972-8A65-215237EE733D">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-13 20:52:11 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_matricula" id="49BBD216-60C6-887D-E2D8-0191A1ED3EA1">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-13 20:35:39 UTC</createdTime>
+<generatorID>D8C74305-1603-D8A2-1E93-54114FF8BB19</generatorID>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<referedAttribute>101AFAA7-4973-6D81-0AC1-390730D17D15</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_paciente" id="EE903501-48EC-84A8-EB68-76462846FC78">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-13 20:37:14 UTC</createdTime>
+<generatorID>4A303A6D-B973-F470-C6F9-56C271F97B8E</generatorID>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<referedAttribute>070E6E65-2131-7FAD-9F61-48C96CA1FBC5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_consultorio" id="08B622A5-C0A2-21ED-F114-29294A0FA918">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-13 20:35:22 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_hor_consulta" id="EA62FF97-87E9-8971-12F7-AD7CDFB748C2">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-13 20:35:13 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FCBB4E1F-81C5-096E-1C9F-290B740E89F6" name="T_CONSULTA PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-13 20:52:16 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1048097D-25EB-9972-8A65-215237EE733D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

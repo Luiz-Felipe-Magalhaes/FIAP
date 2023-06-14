@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="segurar" directorySegmentName="seg_0" id="B2D65A4D-0FB3-E326-9D2A-15FC90900C01">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 22:19:05 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<sourcePk>A2AFEFA2-AF09-DF81-FF32-E6F5FED68CE7</sourcePk>
+<targetPk>9A0D4F59-A03E-4B31-7BDE-D10238E10835</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>23FED42F-ADEA-034B-42EF-F14ED6B0DB80</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0BDF115E-C8DD-CE05-0C98-58E161A19191</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

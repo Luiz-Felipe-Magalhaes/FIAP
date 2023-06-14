@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE0ADB9C-92AA-8D27-8F9D-AE641445077D" name="T_SIP_FUNCIONARIO">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-08 21:13:34 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="num_matricula" id="15147BD7-EAFA-A2E1-36B3-C93A81D7FA38">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-08 21:15:44 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_funcionario" id="3CF702BC-88E2-7CD7-7CDD-5E90E23D03AB">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-08 21:35:12 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_nascimento" id="0751ACFC-CAAB-94D7-F6BB-2A7E8C2BC76B">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-08 21:35:59 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_admissao" id="79F03348-1B6C-FDE2-5E30-6138390BD365">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-08 21:36:09 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlr_salario" id="4DF8ABA4-2014-26B5-4934-6895E88BC26F">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-08 21:36:34 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D8C67932-2BFE-5260-344D-90781ACF8951" name="T_SIP_FUNCIONARIO PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-08 21:16:19 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15147BD7-EAFA-A2E1-36B3-C93A81D7FA38</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

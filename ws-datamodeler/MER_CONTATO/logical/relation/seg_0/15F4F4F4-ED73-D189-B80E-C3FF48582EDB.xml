@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="terv2" directorySegmentName="seg_0" id="15F4F4F4-ED73-D189-B80E-C3FF48582EDB">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 20:01:31 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>C635F22B-2205-B248-CDC9-2FA09381FFF9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B48C52D-B336-B4A0-11D5-4F1E4B2A88DB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>89D284D1-73B5-081C-207F-0D845EFDE0C9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

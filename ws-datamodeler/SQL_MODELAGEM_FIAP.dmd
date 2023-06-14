@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SQL_MODELAGEM_FIAP" id="7DB3CBDE-208E-6CB1-6445-F85853041212" version="3.5">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-08 21:08:18 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7DB3CBDE-208E-6CB1-6445-F85853041212</designId>
+</OSDM_Design>

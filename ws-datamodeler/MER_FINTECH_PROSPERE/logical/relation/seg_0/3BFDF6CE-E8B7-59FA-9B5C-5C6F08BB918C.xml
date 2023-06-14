@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possuir" directorySegmentName="seg_0" id="3BFDF6CE-E8B7-59FA-9B5C-5C6F08BB918C">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-23 21:55:20 UTC</createdTime>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<engineerTo>
+<item key="0DDFD0E8-3C6D-F851-5351-6623C50A0EA1" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>10AF0F98-B764-E72C-0C51-3CDDBDF6AC79</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>471C1306-8304-67E3-08DF-C2B1F60F625B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BC2E20BF-B944-D777-7536-B0A4F0A9C719</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

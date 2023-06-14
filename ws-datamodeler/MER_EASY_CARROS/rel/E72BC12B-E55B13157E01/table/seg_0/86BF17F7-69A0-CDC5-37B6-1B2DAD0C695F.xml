@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86BF17F7-69A0-CDC5-37B6-1B2DAD0C695F" name="T_VEICULO">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>23FED42F-ADEA-034B-42EF-F14ED6B0DB80</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_veiculo" id="E8D7AF49-B5A0-263D-5678-841791F9ADAC">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>513BCB19-AAD8-64DB-A60D-58CF2D45A6AD</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_HOTEL_cod_hotel" id="BA1D6FA0-9DBC-2596-9DF1-EA8C32F64E9E">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>FE72A535-50E6-0970-B767-72695BD2F643</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6342415C-25F1-17A3-56E3-9A4CD9A90BDA" referredColumn="C2802F5C-D41D-AEC6-724E-93A8FC8851D9"/>
+</associations>
+</Column>
+<Column name="T_SEGURO_num_apolice" id="7E53CD64-21C4-D090-213A-23BBE3723616">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>8E99E768-1AB6-8B99-D459-7F8D0DD0C4C1</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31EAD099-63C7-F061-ED58-033C73A1B281" referredColumn="2F1BC990-341E-5C0A-52F2-7ED2C53E2C53"/>
+</associations>
+</Column>
+<Column name="des_modelo" id="39CA920A-590F-6841-75E9-E7B0212065B0">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>D1609E0E-CA21-B2A1-7046-156747AE1F90</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_fabricacao" id="1B3871F1-1BB3-5EC4-2A67-CEF3596F5924">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>7BF15C25-7F60-FB1B-B276-BC826A384F43</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="des_potencia" id="6EED7A06-8290-8A3E-425C-76D13672F18B">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>57354C2A-83F1-EAA7-0521-0FE8920EDE98</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC0708CE-5717-263A-9548-377B26BBD013" name="T_VEICULO_PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>A2AFEFA2-AF09-DF81-FF32-E6F5FED68CE7</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8D7AF49-B5A0-263D-5678-841791F9ADAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABCA15BD-9C13-219B-4D79-34B38135DF22" name="T_VEICULO__IDX">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B2D65A4D-0FB3-E326-9D2A-15FC90900C01</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7E53CD64-21C4-D090-213A-23BBE3723616"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65AA68F7-7067-67EC-92AE-65D898D2930F" name="T_VEICULO_T_HOTEL_FK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>8BEC7378-3F09-718C-12D5-957169230AB0</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA1D6FA0-9DBC-2596-9DF1-EA8C32F64E9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3A76570-C958-4BC4-A42D-475318E889BB" name="T_VEICULO_T_SEGURO_FK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:35:52 UTC</createdTime>
+<generatorID>B2D65A4D-0FB3-E326-9D2A-15FC90900C01</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E53CD64-21C4-D090-213A-23BBE3723616"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

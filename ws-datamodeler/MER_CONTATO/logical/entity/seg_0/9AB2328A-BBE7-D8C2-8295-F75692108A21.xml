@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9AB2328A-BBE7-D8C2-8295-F75692108A21" name="T_SIP_TELEFONE">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 19:25:10 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_telefone" id="A9F6D2DD-3E52-B187-596D-3055366854CB">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 19:31:28 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_contato" id="6D8BECCB-B5C3-692D-00A6-C872B6562DBC">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 19:56:21 UTC</createdTime>
+<generatorID>CA73A4AB-A6B1-FF0E-818E-1274BA9D895A</generatorID>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<referedAttribute>7F05B66B-9B45-B1CA-1E52-F8B497782362</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_ddd" id="3045C557-073C-1C04-A2E3-E7B3953CCE7C">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 21:04:46 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_telefone" id="DB9B9A07-6E4F-DE03-9C48-32964A6BC63A">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 19:25:17 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_telefone" id="49E91C26-97DE-6049-4F5E-E40E274F7366">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 19:34:57 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="75753FA0-56B7-E401-44F0-D54C5CFF8CA4" name="T_SIP_TELEFONE PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 19:31:56 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A9F6D2DD-3E52-B187-596D-3055366854CB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

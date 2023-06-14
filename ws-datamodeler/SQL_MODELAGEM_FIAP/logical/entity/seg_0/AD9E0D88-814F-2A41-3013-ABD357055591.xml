@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AD9E0D88-814F-2A41-3013-ABD357055591" name="T_GERENTE">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-13 16:12:56 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_gerente" id="A23BEBC1-CDB5-40AD-A0F8-A2E954DB6DFD">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-13 16:13:02 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_departamento" id="9FE54542-EBE6-066B-7862-36B8F861077F">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-13 16:18:09 UTC</createdTime>
+<generatorID>7EA16ACC-67E2-B72D-E310-3FB5BE3060D8</generatorID>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<referedAttribute>77BD1532-4770-807D-D29C-4301D898202B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_gerente" id="AB2F5396-2569-BF40-8043-00EEFECC4D93">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-13 16:13:08 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D2A7AA8-B4EA-E9C7-A407-E374A07FEF0C" name="T_GERENTE PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-13 16:13:13 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A23BEBC1-CDB5-40AD-A0F8-A2E954DB6DFD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

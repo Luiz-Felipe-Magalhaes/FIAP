@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1DECA7EA-D6F4-1B4F-484D-B7E1706DDAB0" name="T_HOTEL">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>9FFDA4B0-5646-CCA6-9F86-5353AAA7D363</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_hotel" id="C2802F5C-D41D-AEC6-724E-93A8FC8851D9">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>9C97B1B7-8381-291A-DFA1-BF599C836DAF</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_ENDERECO_HOTEL_cod_endereco" id="4DDA5A5F-B409-5419-6BD3-2C1521F17941">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>FF068065-461C-863D-61EA-E242625CA6A0</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D1B280A-8764-54DA-AF37-5B6444D6364A" referredColumn="B22EF91A-5544-7406-6A35-5B8BDB65E6C9"/>
+</associations>
+</Column>
+<Column name="nom_hotel" id="DE22E007-A6C2-E4E1-4A3E-9AF59118BE34">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>CEE0D71F-8918-8EF5-BFDD-981C6C21A3AA</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vlr_categoria" id="47181EB9-E050-C3F0-6280-F4A0601B2903">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>7B68ECC6-8133-DD53-2989-C208712E8750</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16E525E4-48A3-8CB0-5DE8-FC4B61A5E639" name="T_HOTEL_PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<generatorID>D2C7BAE8-A79B-14A6-3745-C44B9CEC4B80</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2802F5C-D41D-AEC6-724E-93A8FC8851D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="476A522D-3628-67FE-0D48-D838BF615E57" name="T_HOTEL__IDX">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:18:43 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>366F8DD9-02AF-B093-FEC1-38F367CAE942</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4DDA5A5F-B409-5419-6BD3-2C1521F17941"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C98A558F-12C1-4C5E-099D-D1CFAC5F4B3C" name="T_HOTEL_T_ENDERECO_HOTEL_FK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 23:35:52 UTC</createdTime>
+<generatorID>366F8DD9-02AF-B093-FEC1-38F367CAE942</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DDA5A5F-B409-5419-6BD3-2C1521F17941"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

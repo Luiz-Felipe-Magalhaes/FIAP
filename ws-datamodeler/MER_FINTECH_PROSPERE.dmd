@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MER_FINTECH_PROSPERE" id="08240917-E133-7A8D-CB1E-1D9202B8AB3F" version="3.5">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-23 19:24:21 UTC</createdTime>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>08240917-E133-7A8D-CB1E-1D9202B8AB3F</designId>
+</OSDM_Design>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="residir" directorySegmentName="seg_0" id="B8150E66-6161-CB51-D9BE-FE781C70A6AD">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 22:12:32 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<sourcePk>612A8D7E-6827-708F-E84C-D8B5BB6D0E4A</sourcePk>
+<targetPk>2E169000-2031-4A6A-7465-04ECB0A17711</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>17AEF3A3-A97E-E50F-59B4-A3E80535BE41</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2006F615-5DB1-F755-668C-C0DA6E3FCC5C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

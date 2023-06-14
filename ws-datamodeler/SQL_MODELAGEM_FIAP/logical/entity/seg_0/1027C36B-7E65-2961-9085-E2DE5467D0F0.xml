@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1027C36B-7E65-2961-9085-E2DE5467D0F0" name="T_PESSOA_FISICA">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 16:54:45 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_pessoa" id="C7BFC9F2-14CE-889F-CFA7-359E7AF6E946">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 16:56:48 UTC</createdTime>
+<generatorID>411B2AE4-7E30-B8B6-68AA-4211C859D99B</generatorID>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<referedAttribute>00E8C159-39C1-1136-98D0-4C194F4C930C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_cpf" id="6B3044A5-6160-51DA-C6D7-3F13735C7C37">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 16:55:13 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_rg" id="E75A9373-F5C5-40C8-F60D-D3141740CDAC">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 16:54:52 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_nascimento" id="B8FA6044-70A0-5922-95E5-CD21BFB07D9E">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 16:55:17 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_sexo" id="38F21E99-EBD5-904D-8FE8-9713FDF8C423">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 16:55:31 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E73BE42-CB66-583F-B2DA-ADD3C7674673" name="T_PESSOA_FISICA PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 16:57:29 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C7BFC9F2-14CE-889F-CFA7-359E7AF6E946</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

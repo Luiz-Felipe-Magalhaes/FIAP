@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="23FED42F-ADEA-034B-42EF-F14ED6B0DB80" name="T_VEICULO">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 14:45:40 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_veiculo" id="513BCB19-AAD8-64DB-A60D-58CF2D45A6AD">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 14:45:53 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_hotel" id="FE72A535-50E6-0970-B767-72695BD2F643">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 22:23:24 UTC</createdTime>
+<generatorID>8BEC7378-3F09-718C-12D5-957169230AB0</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<referedAttribute>9C97B1B7-8381-291A-DFA1-BF599C836DAF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_apolice" id="8E99E768-1AB6-8B99-D459-7F8D0DD0C4C1">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 22:21:46 UTC</createdTime>
+<generatorID>B2D65A4D-0FB3-E326-9D2A-15FC90900C01</generatorID>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<referedAttribute>C640A34A-7611-D1C8-BA3E-31C1F8321DB8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_modelo" id="D1609E0E-CA21-B2A1-7046-156747AE1F90">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 14:46:10 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_fabricacao" id="7BF15C25-7F60-FB1B-B276-BC826A384F43">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 14:46:15 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_potencia" id="57354C2A-83F1-EAA7-0521-0FE8920EDE98">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 14:46:47 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2AFEFA2-AF09-DF81-FF32-E6F5FED68CE7" name="T_VEICULO PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-22 14:46:18 UTC</createdTime>
+<ownerDesignName>MER_EASY_CARROS</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E72BC12B-A138-66BD-06DE-E55B13157E01" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>513BCB19-AAD8-64DB-A60D-58CF2D45A6AD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

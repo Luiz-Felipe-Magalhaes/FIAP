@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="487FD1BD-AFEA-D082-6FE6-D499EDABF68A" name="T_SIP_CONTATO_ENDERECO">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 21:22:04 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_contato" id="731B911E-B29D-894B-1A86-2E7FEC55EB2D">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 21:23:13 UTC</createdTime>
+<generatorID>261330F3-52E8-4E2C-BA6A-748C7AB4A568</generatorID>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<referedAttribute>7F05B66B-9B45-B1CA-1E52-F8B497782362</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_endereco" id="CB4DE955-908F-37D7-138E-630959078B5A">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 21:24:40 UTC</createdTime>
+<generatorID>A900F0D4-7F5E-B4E9-4608-3A1870173AC3</generatorID>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<referedAttribute>2B2217C1-9C31-E42A-359E-FD772836810E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="56F443F0-50F7-2C9A-D7DC-F033F0707745" name="T_CONTATO_ENDERECO PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-20 21:23:13 UTC</createdTime>
+<ownerDesignName>MER_CONTATO</ownerDesignName>
+<engineerTo>
+<item key="7B7BE27C-652F-FE75-6DAA-754E0C8A1CEB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

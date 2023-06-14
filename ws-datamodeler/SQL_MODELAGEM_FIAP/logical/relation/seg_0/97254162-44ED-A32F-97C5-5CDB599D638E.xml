@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="prescrever" directorySegmentName="seg_0" id="97254162-44ED-A32F-97C5-5CDB599D638E">
+<createdBy>luizf</createdBy>
+<createdTime>2023-05-19 00:09:52 UTC</createdTime>
+<ownerDesignName>SQL_MODELAGEM_FIAP</ownerDesignName>
+<engineerTo>
+<item key="45FB81B3-153C-8A9B-A324-547D63FC4179" value="true"/>
+</engineerTo>
+<sourcePk>FCBB4E1F-81C5-096E-1C9F-290B740E89F6</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C8E968D1-77D0-4EB7-A288-D4FEF1A0B95D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5335569D-1132-B6A8-8272-B43B587FE85E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
