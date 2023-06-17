@@ -1,0 +1,59 @@
+h2{
+    font-size: 25px;
+    color: orange;
+}
+
+p {
+    color: black;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: justify;
+    line-height: 30px;
+    /* font-style: italic;
+    text-decoration: underline;
+    text-transform: capitalize;
+    word-spacing: 15px;
+    letter-spacing: 5px;*/
+}
+
+ol{
+    list-style: upper-roman;  
+}
+
+ul{
+    list-style: circle;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img{
+    width: 75%;
+    border-radius: 10px;
+    border-radius: 10px 40px 90px 140px;
+    /* filter: blur(2px);
+    filter: brightness(150%);
+    filter: opacity(50%);
+    filter: saturate(10%);
+    filter: contrast(100%);
+    filter: grayscale(100%);
+    filter: drop-shadow(100px 40px 5px #dc143c); */
+}
