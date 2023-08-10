@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+}
+
+html{
+    font-size: 62.5%
+}
+
+:root{
+    --color-1:#fff;
+    --color-2:#5ba19b;
+    --color-3:#050808;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+/* header */
+header {
+    background: linear-gradient(to right, #5ba19b 0%, #2d958d 53%, #158e86 100%);
+    width: 100%;
+    height: 10vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    min-width: 150px;
+    width: 30vmin;
+}
+
+.header-menu {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.header-menu ul {
+    display: flex;
+    gap: 20px;
+    align-items: center; 
+    margin-right: 10rem; 
+}
+
+.header-menu li a {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--color-1);
+    font-weight: 500;
+    font-size: 1.7rem;
+    letter-spacing: 0.15em;
+}
+
+.header-menu li a:hover {
+    color: var(--color-3);
+}
+
+.header-menu li a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: var(--color-3);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.header-menu a:hover:after {
+    width: 100%; 
+    left: 0;     
+}
+
+.button-cadastro:hover::after {
+    all: initial;
+}
+
+.button-cadastro {
+    border: 1px solid var(--color-1);
+    border-radius: 5px;
+}
+
+.button-cadastro:hover{
+    background-color: var(--color-1);
+}
+
+.button-cadastro li a:hover{
+    background-color: var(--color-1);
+}
+
+/* carrosel */
+.carousel-item {
+    overflow: hidden;
+    display: flex;
+    height: 91vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.carousel-caption {
+    color: white;
+    font-weight: 500;
+}
+
+.carousel-caption h5{
+    font-size: 6vmin;
+}
+
+.carousel-caption p {
+    font-size: 3vmin;
+}
+
+/* banner */
+
+.banner {
+    display: flex;
+    align-items: center;
+    width: 170vmin;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.banner img {
+    margin-left: 20vmin;
+    max-width: 50%;
+    height: auto;
+}
+
+.content {
+    margin-left: 20vmin;
+    flex: 2;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+    
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.sub-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.step {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-left: 2px solid #333;
+    padding-left: 20px;
+}
+
+.step span {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.step h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+/* informacoes */
+.informacoes {
+    background: var(--color-2);
+    color: var(--color-1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.informacoes h3 {
+    font-size: 3rem;
+    margin-bottom: 35px;
+}
+
+.informacoes p {
+    max-width: 800px;
+    margin-bottom: 35px;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.informacoes hr {
+    width: 200px;
+    height: 2px;
+    background: var(--color-1);
+    margin-bottom: 70px;
+    border: none;
+}
+
+.informacoes .item {
+    width: 100%;
+    display: flex;
+}
+
+.informacoes .item li{
+    padding: 0 30px;
+    text-align: center;
+}
+
+.informacoes .item li i {
+    color: var(--color-1);
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.informacoes .item li h4 {
+    color: var(--color-1);
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.informacoes .item p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+/* cadastro */
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.cadastro h3 {
+    font-size: 2rem;
+    margin-bottom: 35px;
+}
+
+.cadastro p {
+    max-width: 800px;
+    margin-bottom: 35px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.cadastro form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.cadastro form input {
+    padding: 15px;
+    border: 1px solid var(--color-2);
+    border-radius: 4px;
+    margin-right: 15px;
+    width: 300px;
+}
+
+.cadastro form button {
+    padding: 15px;
+    background: var(--color-2);
+    color: var(--color-1);
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* rodape */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-1);
+    padding: 50px 0;
+}
+
+footer ul {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+footer ul li {
+    margin-right: 10px;
+}
+
+footer ul li:last-child {
+    margin-right: 0;
+}
+
+footer ul li a {
+    color: var(--color-2);
+    font-size: 2.5rem;
+}
+
+footer p{
+    color: var(--color-2);
+    text-align: center;
+}
+
+

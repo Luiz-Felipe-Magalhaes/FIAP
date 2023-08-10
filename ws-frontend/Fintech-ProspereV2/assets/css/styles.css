@@ -1,0 +1,147 @@
+/* Reset CSS básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+  }
+  
+  html{
+    font-size: 62.5%
+}
+
+:root{
+  --color-1:#fff;
+  --color-2:#5ba19b;
+  --color-3:#050808;
+}
+  
+  /* Estilo do cabeçalho */
+  header {
+    height: 15vmin;
+    background-color: var(--color-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  
+  header img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .header-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    float: left;
+  }
+  
+  .header-menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .header-menu .button-cadastro {
+    padding: 8px 20px;
+    background-color: #fecd00;
+    color: #01295f;
+    border-radius: 5px;
+  }
+  
+  /* Estilo do slider */
+  .carousel-item {
+    position: relative;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  /* Estilo da seção de passos */
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .banner img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .banner-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    max-width: 1200px;
+  }
+  
+  .banner-content .step {
+    text-align: center;
+  }
+  
+  .banner-content .step span {
+    font-size: 2rem;
+    color: #01295f;
+    font-weight: bold;
+  }
+  
+  /* Estilo da seção de informações */
+  .informacoes {
+    background-color: #01295f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 0;
+  }
+  
+  .informacoes .item {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .informacoes .item i {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilo do rodapé */
+  footer {
+    background-color: #01295f;
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  footer img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilo responsivo */
+  @media screen and (max-width: 768px) {
+    .banner-content {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+    .header-menu {
+      display: none;
+    }
+    .header-menu ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+  
+  
