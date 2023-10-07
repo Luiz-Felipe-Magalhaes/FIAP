@@ -3,37 +3,31 @@ package strings;
 import java.util.Scanner;
 
 public class Exercicio03 {
-
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        String frase;
 
+        Scanner sc = new Scanner(System.in);
         System.out.print("Digite uma frase: ");
-        String frase = scanner.nextLine();
+        frase = sc.nextLine();
 
-        String[] palavras = frase.split(" ");
+        String[] separado = frase.split(" ");
 
-        System.out.println("Palavras repetidas:");
+        for (int i = 0; i < separado.length; i++) {
+            boolean repetida = false;
 
-        for (int i = 0; i < palavras.length; i++) {
-            String palavraAtual = palavras[i].toLowerCase();
-
-            boolean palavraImpressa = false;
-            for (int j = 0; j < i; j++) {
-                if (palavraAtual.equals(palavras[j].toLowerCase())) {
-                    palavraImpressa = true;
+            for (int j = i + 1; j < separado.length; j++) {
+                if (separado[i].equals(separado[j])) {
+                    repetida = true;
                     break;
                 }
             }
 
-            if (!palavraImpressa) {
-                for (int k = i + 1; k < palavras.length; k++) {
-                    String palavraComparada = palavras[k].toLowerCase();
-                    if (palavraAtual.equals(palavraComparada)) {
-                        System.out.println(palavraAtual);
-                        break;
-                    }
-                }
+            if (repetida) {
+                System.out.println(separado[i]);
             }
         }
     }
 }
+
+
+
