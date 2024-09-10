@@ -3,9 +3,6 @@
 <createdBy>luizf</createdBy>
 <createdTime>2023-05-23 19:52:00 UTC</createdTime>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<engineerTo>
-<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,9 +16,6 @@
 <createdBy>luizf</createdBy>
 <createdTime>2023-05-23 21:16:45 UTC</createdTime>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<engineerTo>
-<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -32,9 +26,6 @@
 <createdBy>luizf</createdBy>
 <createdTime>2023-05-23 21:17:06 UTC</createdTime>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<engineerTo>
-<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -45,9 +36,6 @@
 <createdBy>luizf</createdBy>
 <createdTime>2023-05-23 21:17:12 UTC</createdTime>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<engineerTo>
-<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -58,9 +46,6 @@
 <createdBy>luizf</createdBy>
 <createdTime>2023-05-27 22:14:49 UTC</createdTime>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<engineerTo>
-<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -73,9 +58,6 @@
 <createdBy>luizf</createdBy>
 <createdTime>2023-05-23 21:17:05 UTC</createdTime>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<engineerTo>
-<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>98B92F33-E05B-8EAA-2BB6-400AF431EE0C</attributeRef>

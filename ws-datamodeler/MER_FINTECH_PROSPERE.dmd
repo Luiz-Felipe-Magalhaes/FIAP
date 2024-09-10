@@ -5,4 +5,9 @@
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
 <capitalNames>false</capitalNames>
 <designId>08240917-E133-7A8D-CB1E-1D9202B8AB3F</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="08240917-E133-7A8D-CB1E-1D9202B8AB3F">
+<designStoragePath>D:\Documentos\Estudos\FIAP\Fintech-Prospere\MER_FINTECH_PROSPERE</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
 </OSDM_Design>

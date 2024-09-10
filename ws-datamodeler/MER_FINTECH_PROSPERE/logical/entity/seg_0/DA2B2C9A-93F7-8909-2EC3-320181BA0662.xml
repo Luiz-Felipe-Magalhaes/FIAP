@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A359A0E-6562-6B00-5F43-FF5D990A2A99" name="T_META">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DA2B2C9A-93F7-8909-2EC3-320181BA0662" name="T_INVESTIMENTO">
 <createdBy>luizf</createdBy>
-<createdTime>2023-05-23 21:37:49 UTC</createdTime>
+<createdTime>2023-10-13 23:19:19 UTC</createdTime>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -12,9 +12,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cod_meta" id="37741376-9760-9F23-3173-36BA5EF2CF66">
+<Attribute name="cod_investimento" id="C6BF9328-EF03-521C-15FD-6A7A8B26E9AD">
 <createdBy>luizf</createdBy>
-<createdTime>2023-05-23 21:37:54 UTC</createdTime>
+<createdTime>2023-10-13 23:19:35 UTC</createdTime>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -22,10 +22,51 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cod_usuario" id="DF4DD7F9-175E-49EF-3B28-98A3A5F97571">
+<Attribute name="nom_investimento" id="1B268C14-EC1D-0DA6-719D-62EF8EC68361">
 <createdBy>luizf</createdBy>
-<createdTime>2023-05-23 21:54:02 UTC</createdTime>
-<generatorID>14A7717D-2222-516F-7B1B-CCD997F37A85</generatorID>
+<createdTime>2023-10-13 23:21:57 UTC</createdTime>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_investimento" id="BC641E23-3B48-4917-2ECE-930167594323">
+<createdBy>luizf</createdBy>
+<createdTime>2023-10-13 23:20:14 UTC</createdTime>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="val_investimento" id="5400B5B0-F9BE-043B-D9C9-2513F3CC9BBD">
+<createdBy>luizf</createdBy>
+<createdTime>2023-10-13 23:20:57 UTC</createdTime>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_investimento" id="6D801950-5D6F-9ECC-6DAB-DA434577DBDC">
+<createdBy>luizf</createdBy>
+<createdTime>2023-10-13 23:21:28 UTC</createdTime>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_usuario" id="F0F0C8B2-9900-16B2-CE75-8D0B633A1DE5">
+<createdBy>luizf</createdBy>
+<createdTime>2023-10-13 23:22:53 UTC</createdTime>
+<generatorID>B7DE3BCB-A462-F478-21F0-CB6BEF05A71E</generatorID>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
 <referedAttribute>98B92F33-E05B-8EAA-2BB6-400AF431EE0C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -34,54 +75,15 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="des_meta" id="B0367AF3-C6F6-0189-06CD-0080BBBECEC5">
-<createdBy>luizf</createdBy>
-<createdTime>2023-05-23 21:38:38 UTC</createdTime>
-<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="val_meta" id="1A2A6811-50BE-AC05-9CFD-14CEC1BB1285">
-<createdBy>luizf</createdBy>
-<createdTime>2023-05-23 21:38:53 UTC</createdTime>
-<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,10,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="dat_inicio" id="96A92AB0-69DA-2726-002C-2704A629F7C8">
-<createdBy>luizf</createdBy>
-<createdTime>2023-05-23 21:39:24 UTC</createdTime>
-<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="dat_termino" id="D8753F35-1584-9791-23AF-E6045BCAF05D">
-<createdBy>luizf</createdBy>
-<createdTime>2023-05-23 21:40:08 UTC</createdTime>
-<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F6A6D679-C289-A862-40F0-E641C7A9D0A0" name="T_FTC_META PK">
+<identifier id="0479260A-71C1-47CD-8C8E-ADEF8EAE7B65" name="T_INVESTIMENTO PK">
 <createdBy>luizf</createdBy>
-<createdTime>2023-05-23 21:38:56 UTC</createdTime>
+<createdTime>2023-10-13 23:20:21 UTC</createdTime>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>37741376-9760-9F23-3173-36BA5EF2CF66</attributeRef>
+<attributeRef>C6BF9328-EF03-521C-15FD-6A7A8B26E9AD</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

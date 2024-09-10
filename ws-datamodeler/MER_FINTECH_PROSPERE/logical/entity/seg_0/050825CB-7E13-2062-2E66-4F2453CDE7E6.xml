@@ -3,9 +3,6 @@
 <createdBy>luizf</createdBy>
 <createdTime>2023-05-23 21:24:31 UTC</createdTime>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<engineerTo>
-<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,9 +16,6 @@
 <createdBy>luizf</createdBy>
 <createdTime>2023-05-23 21:24:55 UTC</createdTime>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<engineerTo>
-<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -33,9 +27,6 @@
 <createdTime>2023-05-27 22:15:33 UTC</createdTime>
 <generatorID>F92C6D0B-E288-0D62-E761-90A0E484D153</generatorID>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<engineerTo>
-<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
-</engineerTo>
 <referedAttribute>10FDB8CE-3037-DF8A-F0C7-13114C28D6B9</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,23 +39,17 @@
 <createdTime>2023-05-29 16:24:13 UTC</createdTime>
 <generatorID>4D32A7AB-1164-A99D-AE6D-0AF2B9109A38</generatorID>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<engineerTo>
-<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
-</engineerTo>
 <referedAttribute>2CB6AB0E-D5FE-72C6-DF89-00BB010284DF</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ind_tipo_transacao" id="5E3E8B79-E16A-2189-4807-493BED53F0D2">
 <createdBy>luizf</createdBy>
 <createdTime>2023-05-23 21:25:11 UTC</createdTime>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<engineerTo>
-<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
@@ -75,9 +60,6 @@
 <createdBy>luizf</createdBy>
 <createdTime>2023-05-23 21:25:49 UTC</createdTime>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<engineerTo>
-<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -89,9 +71,6 @@
 <createdBy>luizf</createdBy>
 <createdTime>2023-05-23 21:42:36 UTC</createdTime>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<engineerTo>
-<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
@@ -102,9 +81,6 @@
 <createdBy>luizf</createdBy>
 <createdTime>2023-05-23 21:26:04 UTC</createdTime>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<engineerTo>
-<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
@@ -114,9 +90,6 @@
 <createdBy>luizf</createdBy>
 <createdTime>2023-05-23 21:26:46 UTC</createdTime>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<engineerTo>
-<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -128,9 +101,6 @@
 <createdBy>luizf</createdBy>
 <createdTime>2023-05-27 20:03:48 UTC</createdTime>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<engineerTo>
-<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -141,9 +111,6 @@
 <createdBy>luizf</createdBy>
 <createdTime>2023-05-27 20:04:25 UTC</createdTime>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<engineerTo>
-<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -156,9 +123,6 @@
 <createdBy>luizf</createdBy>
 <createdTime>2023-05-23 21:28:25 UTC</createdTime>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<engineerTo>
-<item key="D309F54C-0985-6AAE-8C4D-70066083FC9D" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>A96EFDFD-67F4-B5F4-7B59-26FFF8232540</attributeRef>

@@ -1,18 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possuir" directorySegmentName="seg_0" id="3BFDF6CE-E8B7-59FA-9B5C-5C6F08BB918C">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Investe" directorySegmentName="seg_0" id="B7DE3BCB-A462-F478-21F0-CB6BEF05A71E">
 <createdBy>luizf</createdBy>
-<createdTime>2023-05-23 21:55:20 UTC</createdTime>
+<createdTime>2023-10-13 23:22:53 UTC</createdTime>
 <ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
-<sourceTransferable>false</sourceTransferable>
-<targetTransferable>false</targetTransferable>
+<engineerTo>
+<item key="3993DDB4-B710-FD35-44FF-8F7A80A5657E" value="true"/>
+</engineerTo>
 <sourcePk>10AF0F98-B764-E72C-0C51-3CDDBDF6AC79</sourcePk>
 <identifying>false</identifying>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>471C1306-8304-67E3-08DF-C2B1F60F625B</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>BC2E20BF-B944-D777-7536-B0A4F0A9C719</targetEntity>
+<targetEntity>DA2B2C9A-93F7-8909-2EC3-320181BA0662</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

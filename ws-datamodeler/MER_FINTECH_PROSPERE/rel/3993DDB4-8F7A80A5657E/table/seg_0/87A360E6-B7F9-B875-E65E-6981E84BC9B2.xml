@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87A360E6-B7F9-B875-E65E-6981E84BC9B2" name="T_USUARIO">
+<createdBy>luizf</createdBy>
+<createdTime>2023-10-13 23:14:34 UTC</createdTime>
+<generatorID>471C1306-8304-67E3-08DF-C2B1F60F625B</generatorID>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_usuario" id="D0AD75E2-6155-E93C-6774-F073AD7AB2D0">
+<createdBy>luizf</createdBy>
+<createdTime>2023-10-13 23:14:34 UTC</createdTime>
+<generatorID>98B92F33-E05B-8EAA-2BB6-400AF431EE0C</generatorID>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_usuario" id="3C84A32C-4C1E-39E1-EC0E-A3741A06984A">
+<createdBy>luizf</createdBy>
+<createdTime>2023-10-13 23:14:34 UTC</createdTime>
+<generatorID>782CC69E-0399-F56D-EBA9-6AE34F5669FC</generatorID>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="des_email" id="47AF7167-B5F4-3D6A-538F-7F95AE647FFD">
+<createdBy>luizf</createdBy>
+<createdTime>2023-10-13 23:14:34 UTC</createdTime>
+<generatorID>56C4D137-8AC6-A5E8-36AD-C0FF4CB860C7</generatorID>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="des_senha" id="A840EF1E-8E27-13FA-5A87-959B019A4C83">
+<createdBy>luizf</createdBy>
+<createdTime>2023-10-13 23:14:34 UTC</createdTime>
+<generatorID>D623DDED-B037-31E5-EAFE-7423E483975C</generatorID>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CBFF1C0A-DF40-8574-F8EE-0456F5E73DFA" name="T_USUARIO_PK">
+<createdBy>luizf</createdBy>
+<createdTime>2023-10-13 23:14:34 UTC</createdTime>
+<generatorID>10AF0F98-B764-E72C-0C51-3CDDBDF6AC79</generatorID>
+<ownerDesignName>MER_FINTECH_PROSPERE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0AD75E2-6155-E93C-6774-F073AD7AB2D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
